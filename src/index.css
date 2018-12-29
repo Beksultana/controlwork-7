@@ -12,3 +12,54 @@ body {
     margin: 0 auto;
     padding: 30px 15px;
 }
+.content{
+  display: flex;
+  padding: 15px;
+}
+
+.Hamburger{
+  width: 40%;
+  margin: 5px ;
+  padding: 5px 15px;
+  box-shadow: -1px 2px 2px 2px #ddd;
+}
+.Cheeseburger{
+  width: 40%;
+  margin: 5px;
+  padding: 5px 15px;
+  box-shadow: -1px 2px 2px 2px #ddd;
+}
+.Fries{
+  width: 40%;
+  margin: 5px;
+  padding: 5px 15px;
+  box-shadow: -1px 2px 2px 2px #ddd;
+}
+.Coffee{
+  width: 40%;
+  margin: 5px;
+  padding: 5px 15px;
+  box-shadow: -1px 2px 2px 2px #ddd;;
+}
+.Tea{
+  width: 40%;
+  margin: 5px;
+  padding: 5px 15px;
+  box-shadow: -1px 2px 2px 2px #ddd;
+}
+.Cola{
+  width: 40%;
+  margin: 5px;
+  padding: 5px 15px;
+  box-shadow: -1px 2px 2px 2px #ddd;
+}
+
+.CounterBlock{
+  width: 45%;
+}
+.MenuBlock{
+  display: flex;
+  flex-wrap: wrap;
+  width: 45%;
+  margin: 0 0 0 20px;
+}
