@@ -16,40 +16,45 @@ body {
   display: flex;
   padding: 15px;
 }
+.b{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 
 .Hamburger{
-  width: 40%;
-  margin: 5px ;
+  width: 90%;
+  margin: 10px 0;
   padding: 5px 15px;
   box-shadow: -1px 2px 2px 2px #ddd;
 }
 .Cheeseburger{
-  width: 40%;
-  margin: 5px;
+  width: 90%;
+  margin: 10px 0;
   padding: 5px 15px;
   box-shadow: -1px 2px 2px 2px #ddd;
 }
 .Fries{
-  width: 40%;
-  margin: 5px;
+  width: 90%;
+  margin: 10px 0;
   padding: 5px 15px;
   box-shadow: -1px 2px 2px 2px #ddd;
 }
 .Coffee{
-  width: 40%;
-  margin: 5px;
+  width: 90%;
+  margin: 10px 0;
   padding: 5px 15px;
   box-shadow: -1px 2px 2px 2px #ddd;;
 }
 .Tea{
-  width: 40%;
-  margin: 5px;
+  width: 90%;
+  margin: 10px 0;
   padding: 5px 15px;
   box-shadow: -1px 2px 2px 2px #ddd;
 }
 .Cola{
-  width: 40%;
-  margin: 5px;
+  margin: 10px 0;
+  width: 90%;
   padding: 5px 15px;
   box-shadow: -1px 2px 2px 2px #ddd;
 }
@@ -58,8 +63,7 @@ body {
   width: 45%;
 }
 .MenuBlock{
-  display: flex;
-  flex-wrap: wrap;
+  /*display: flex;*/;
   width: 45%;
   margin: 0 0 0 20px;
 }
