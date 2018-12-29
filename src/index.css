@@ -16,54 +16,58 @@ body {
   display: flex;
   padding: 15px;
 }
-.b{
+.blockMenu{
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
 .Hamburger{
-  width: 90%;
-  margin: 10px 0;
+  width: 40%;
+  margin: 10px 15px;
   padding: 5px 15px;
   box-shadow: -1px 2px 2px 2px #ddd;
 }
 .Cheeseburger{
-  width: 90%;
-  margin: 10px 0;
+  width: 40%;
+  margin: 10px 15px;
   padding: 5px 15px;
   box-shadow: -1px 2px 2px 2px #ddd;
 }
 .Fries{
-  width: 90%;
-  margin: 10px 0;
+  width: 40%;
+  margin: 10px 15px;
   padding: 5px 15px;
   box-shadow: -1px 2px 2px 2px #ddd;
 }
 .Coffee{
-  width: 90%;
-  margin: 10px 0;
+  width: 40%;
+  margin: 10px 15px;
   padding: 5px 15px;
   box-shadow: -1px 2px 2px 2px #ddd;;
 }
 .Tea{
-  width: 90%;
-  margin: 10px 0;
+  width: 40%;
+  margin: 10px 15px;
   padding: 5px 15px;
   box-shadow: -1px 2px 2px 2px #ddd;
 }
 .Cola{
-  margin: 10px 0;
-  width: 90%;
+  margin: 10px 15px;
+  width: 40%;
   padding: 5px 15px;
   box-shadow: -1px 2px 2px 2px #ddd;
 }
 
 .CounterBlock{
-  width: 45%;
+  width: 25%;
 }
 .MenuBlock{
-  /*display: flex;*/;
-  width: 45%;
+  display: flex;
+  flex-wrap: wrap;
+  width: 75%;
   margin: 0 0 0 20px;
+}
+.CounterFood{
+
 }

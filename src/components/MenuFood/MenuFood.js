@@ -3,11 +3,11 @@ import "./MenuFood.css"
 
 const MenuFood = props => (
     <div className={props.name}>
-        <div className="b">
+        <div className="blockMenu">
             <img className={'imgs'} src={props.image} alt={props.name}/>
-            <span>{props.name} </span>
-            <span> Price: {props.price} KGZ</span>
-            <button className='btn'>+</button>
+            <span style={{fontWeight: 'bold'}}>{props.name} </span>
+            <span> Price: {props.price} KGS</span>
+            <button onClick={props.onClickAddFoods}  className='btn'>+</button>
         </div>
     </div>
 )
