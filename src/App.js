@@ -9,18 +9,20 @@ import TeaImg from './imgFasfood/tea.png';
 import ColaImg from './imgFasfood/cola.jpg';
 
 class App extends Component {
-
-    state = {
-        fastFood: [
-            {name: 'Hamburger', price: 80, img: HamburgerImg, count: 0},
-            {name: 'Cheeseburger', price: 90, img: CheeseburgerImg, count: 0},
-            {name: 'Fries', price: 45, img: Friesimg, count: 0},
-            {name: 'Coffee', price: 70, img: Coffeeimg, count: 0},
-            {name: 'Tea', price: 50, img: TeaImg, count: 0},
-            {name: 'Cola', price: 40, img: ColaImg, count: 0},
-        ],
-        totalPrice: 0
-    };
+    constructor(props){
+        super(props);
+        this.state = {
+            fastFood: [
+                {name: 'Hamburger', price: 80, img: HamburgerImg, count: 0},
+                {name: 'Cheeseburger', price: 90, img: CheeseburgerImg, count: 0},
+                {name: 'Fries', price: 45, img: Friesimg, count: 0},
+                {name: 'Coffee', price: 70, img: Coffeeimg, count: 0},
+                {name: 'Tea', price: 50, img: TeaImg, count: 0},
+                {name: 'Cola', price: 40, img: ColaImg, count: 0},
+            ],
+            totalPrice: 0
+        };
+    }
 
     onClickAddHandler = (foodAdd) => {
         let totalPrice = 0;
@@ -47,7 +49,7 @@ class App extends Component {
         }
         this.setState({fastFood});
         this.getTotalPrice();
-    }
+    };
 
     getTotalPrice = () => {
         const fastFood = [...this.state.fastFood];
@@ -67,7 +69,8 @@ class App extends Component {
 
     return (
       <div className="container">
-          <h1 style={{textAlign: 'center'}}>Fast Food!</h1>
+          {/*<h1 style={{textAlign: 'center'}}>Fast Food!</h1>*/}
+          <h1 style={{textAlign: 'center'}}>{this.props.title}</h1>
           <p style={{textAlign: 'center', fontSize: "20px", fontWeight: 'bold'}}>Total price: {this.state.totalPrice} KGS</p>
 
           <div className="content">
@@ -98,9 +101,7 @@ class App extends Component {
                       ))
                   }
               </div>
-
           </div>
-
       </div>
     );
   }
